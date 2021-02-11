@@ -1,0 +1,56 @@
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\SDK\ScopeCppSDK\vc15\VC\bin>dumpbin.exe /exports c:\Windows\System32\cabinet.dll
+Microsoft (R) COFF/PE Dumper Version 14.12.25835.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file c:\Windows\System32\cabinet.dll
+
+File Type: DLL
+
+  Section contains the following exports for Cabinet.dll
+
+    00000000 characteristics
+    FD62B066 time date stamp
+        0.00 version
+           1 ordinal base
+          45 number of functions
+          26 number of names
+
+    ordinal hint RVA      name
+
+         35    0 000040B0 CloseCompressor
+         45    1 00004200 CloseDecompressor
+         33    2 00004070 Compress
+         30    3 000040C0 CreateCompressor
+         40    4 000041F0 CreateDecompressor
+         43    5 00004450 Decompress
+          4    6 0000C560 DeleteExtractedFiles
+          2    7 0000B8A0 DllGetVersion
+          3    8 0000C630 Extract
+         11    9 0000E450 FCIAddFile
+         10    A 0000E5B0 FCICreate
+         14    B 0000E880 FCIDestroy
+         13    C 0000E8F0 FCIFlushCabinet
+         12    D 0000E980 FCIFlushFolder
+         22    E 00005F00 FDICopy
+         20    F 00008D10 FDICreate
+         23   10 000072B0 FDIDestroy
+         21   11 00008E20 FDIIsCabinet
+         24   12 0000CD50 FDITruncateCabinet
+          1   13 0000B940 GetDllVersion
+         32   14 00015330 QueryCompressorInformation
+         42   15 000153E0 QueryDecompressorInformation
+         34   16 00015400 ResetCompressor
+         44   17 00015480 ResetDecompressor
+         31   18 00015490 SetCompressorInformation
+         41   19 00015540 SetDecompressorInformation
+
+  Summary
+
+        3000 .data
+        1000 .didat
+        2000 .pdata
+        5000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       1B000 .text
