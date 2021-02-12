@@ -124,6 +124,18 @@ int test(char* param_1, char* param_2) {
 }
 ```
 
+En cherchant les références à cette fonction `starter02` dans ghidra on se rend
+compte qu'elles sont toutes présente dans une fonction qui semble traiter les
+arguments du programme.
+
+En excluant les troll qui se cachent dans le code, l'analyse de cette fonction
+nous donne les informations suivantes:
+
+* le programme attend 3 arguments
+* le premier argument doit être `--password` ou `-p`
+* le deuxième argument doit être un mot de passe de 9 caractères ou plus
+* il ne semble pas y avoir de restrictions spécifiques sur le dernier argument
+
 ## 1.3 Analyse de la fonction `apt_func_001`
 
 ## 1.4 Analyse de la fonction `apt_func_002`
