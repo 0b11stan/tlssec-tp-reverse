@@ -138,7 +138,18 @@ nous donne les informations suivantes:
 
 ## 1.3 Analyse de la fonction `apt_func_001`
 
+La fonction prend en entrée l'adresse d'une chaine de caractères contenant le
+nom d'un fichier de clef publique au format PEM. Le deuxième argument est un
+pointeur vers une structure propre à la librairie `libcrypto.dll`. Le prototype
+est donc le suivant:
+```c
+void apt_func_001(char *file_name, EVP_PKEY *pub_key);
+```
+
 ## 1.4 Analyse de la fonction `apt_func_002`
+
+La fonction utilise les fonctions de compression vues plus tôt dans la librairie
+`cabinet.dll`.
 
 ## 1.5 Analyse de la fonction `apt_func_003`
 
